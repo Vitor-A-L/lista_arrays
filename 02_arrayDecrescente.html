@@ -7,11 +7,14 @@
     */
 
     //ENTRADA
-
-
+    const numero1 = Number(prompt("Digite o primeiro número").trim());
+    const numero2 = Number(prompt("Digite o segundo número").trim());
+    const numero3 = Number(prompt("Digite o terceiro número").trim());
     //PROCESSAMENTO
-
+let decrescente=[numero1,numero2,numero3];
+decrescente.sort((a, b) => b - a)
+let total = decrescente.join(" - ");
 
     //SAÍDA
-
+    alert(total)
 </script>

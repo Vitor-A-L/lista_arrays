@@ -11,11 +11,20 @@
     */
 
     //ENTRADA
+const f1 = prompt("Digite uma fruta!").trim();
+const f2 = prompt("Digite uma fruta!").trim();
+const f3 = prompt("Digite uma fruta!").trim();
 
-
-    //PROCESSAMENTO
-
+const b1 = prompt("Digite uma bebida!").trim();
+const b2 = prompt("Digite uma bebida!").trim();
+const b3 = prompt("Digite uma bebida!").trim();
+//PROCESSAMENTO
+let fruta = [f1, f2, f3];
+let bebida = [b1, b2, b3];
+const junto = fruta.concat(bebida);
 
     //SAÍDA
-
+alert(`As frutas a serem compradas são: ${fruta.join(", ")}`);
+alert(`As bebidas a serem compradas são: ${bebida.join(", ")}`);
+alert(`A lista completa de compras é: ${junto.join(", ")}`)
 </script>
