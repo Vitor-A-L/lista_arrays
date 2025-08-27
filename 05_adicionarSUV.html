@@ -9,11 +9,12 @@
     */
 
     //ENTRADA
-
-
+let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
+const more = prompt("Qual outro carro você quer adicionar a lista?(Tiggo,Sportage,Tucson,EcoSport)").trim();
     //PROCESSAMENTO
-
+alert(`A sua antiga lista de veiculos era ` + carrosSUV);
+carrosSUV.push(more)
 
     //SAÍDA
-
+alert(`A sua nova lista de veículos é essas ` + carrosSUV.join(", "));
 </script>

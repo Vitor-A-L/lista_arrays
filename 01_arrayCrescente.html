@@ -6,12 +6,20 @@
     Retorne os elementos do array, separando-os por hífen (n1 - n2).
     */
 
+    
     //ENTRADA
-const 
+    const n1= Number(prompt("informe um numero").trim());
+    const n2= Number(prompt("informe outro numero").trim());
+
+
 
     //PROCESSAMENTO
+    let crescente =[n1,n2];
+    crescente.reverse((b, a) => b - a);
+    let real = crescente.join(" - ");
 
 
     //SAÍDA
+    alert(real);
 
 </script>
